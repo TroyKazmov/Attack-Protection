@@ -1,27 +1,49 @@
-# Attack-Protection
-Enhanced cyber-attack protection implementation with monitoring (Made by me)
+# Enhanced Botnet Protection System
 
-HOW TO INSTALL:
+A comprehensive security system for protecting web applications from botnet attacks, DDoS attempts, and malicious bot traffic.
 
-This is a Node.js script that will generate all the files for the enhanced botnet protection system. You can run this script to automatically create the complete project structure with all necessary files.
+![Security Dashboard](https://via.placeholder.com/800x400?text=Security+Dashboard)
 
-This script will create a complete project structure with all the necessary files for the enhanced botnet protection system. The script:
+## Table of Contents
 
-1. Creates the main project directory
-2. Sets up all subdirectories (src, logs, data, etc.)
-3. Creates all source files with their content
-4. Provides instructions on how to use the project
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Accessing the Dashboard](#accessing-the-dashboard)
+- [Security Management](#security-management)
+- [Customization](#customization)
+- [Security Recommendations](#security-recommendations)
+- [Troubleshooting](#troubleshooting)
+- [Advanced Configuration](#advanced-configuration)
+- [License](#license)
 
+## Overview
 
-After running this script, you'll have a fully functional botnet protection system with:
+This project provides a robust security layer for web applications to protect against botnet attacks. It includes rate limiting, bot detection, IP blocklisting, and a real-time monitoring dashboard.
 
-- Advanced rate limiting
-- Bot detection
-- IP blocklist management
-- Security dashboard
-- Comprehensive logging
-- API endpoints for management
+## Features
 
+- **Advanced Rate Limiting**: Automatically detect and block IPs that exceed request thresholds
+- **Bot Detection**: Identify malicious bots using behavioral analysis and pattern recognition
+- **IP Blocklist Integration**: Maintain and update lists of known malicious IPs
+- **Security Dashboard**: Real-time monitoring of security events and traffic patterns
+- **Comprehensive Logging**: Detailed logs of all security events for analysis
+- **API Access**: Programmatically manage security settings and view statistics
+
+## Installation
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TroyKazmov/enhanced-botnet-protection.git
+   cd enhanced-botnet-protection
 
 To use the script:
 
